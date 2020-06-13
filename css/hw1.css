@@ -1,0 +1,109 @@
+header{
+    background-image: url('../images/flywheel.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-color: #cccccc;
+    opacity: 0.9;
+}
+nav {
+    margin-left: 5%;
+}
+nav a{
+    font-size: 150%;
+    margin-right: 8%;
+    width: 15%;
+    border-radius: 5%;
+    color: #f3df87;
+    background-color: #533c3c;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.active{
+    width: 10%;
+    height: 10%;
+    background-color: chocolate;
+}
+a:hover {
+    background-color: #b98080;
+}
+.left {
+    background-color: #8c9912;
+    width: 10%;
+    height: 100vh;
+    padding: 2em 2em;
+    margin-right: 2%;
+    display: inline-block;
+    float: left;
+}
+.left img{
+    display: block;
+    margin-bottom: 10%;
+    width: 10em;
+    height: 8em;
+    border: 2px solid black;
+}
+.right {
+    background-color: none;
+    width: 75%;
+    display: inline-block;
+    float: left;
+    margin-right: 2%;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2 {
+    margin-left: 0;
+    color: black;
+    font-family: calibri;
+}
+h1 {
+    color: #6e0238;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 50px;
+}
+th {
+    background-image: linear-gradient(#cccccc 0%,#8c9912 100%);
+    color: white;
+    border-radius: 5%;
+}
+table {
+    display: inline-block;
+    width: 75%;
+    text-align: center;
+    margin: 4%;
+    margin-left: 6%;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    border-spacing: 3px;
+}
+tr {
+    color: #9c9c9c;
+    background-color: white;
+}
+tr,td {
+    border: 1px solid rgb(233, 221, 221);
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:nth-child(odd) { 
+    background-color: #dddddd;
+}
+td:nth-child(1) {
+    width: 45%;
+}
+td:nth-child(2) {
+    width: 15%;
+}
+td:nth-child(3){
+    width: 15%;
+}
